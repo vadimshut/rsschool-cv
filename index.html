@@ -10,33 +10,118 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="header__img">
-                <img src="/images/ava.jpg" alt="ava_shut" height=250px width=200px>
-            </div>
-            <div class="header_info">
-                <div class="name">VADIM SHUT</div>
-                <div class="work">Information Security</div>
+            <div class="header__avatarka"></div>
+            <div class="header__info">
+                <div class="name"><h1>VADIM SHUT</h1> </div>
+                <div class="work"><h4> Cybersecurity engineer</h4></div>
                 <nav class="header__nav">
                     <ul>
                         <li><a href="#">SUMMARY</a></li>
-                        <li><a href="#">SKILS AND AWARDS</a></li>
-                        <li><a href="#">WORK EXPERIENCE</a></li>
-                        <li><a href="#">PROFESSIONAL DEVELOPMENT, COURSES</a></li>
+                        <li><a href="#">SKILLS</a></li>
+                        <li><a href="#">CODE EXAMPLES</a></li>
+                        <li><a href="#">EXPERIENCE</a></li>
+                        <li><a href="#">EDUCATION</a></li>
+                        <li><a href="#">LANGUAGE</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         <main class="main">
             <section>
-                <div>
-                    <span>tetfetwfgwe</span>
+                <div class="summary">
+                    <p>SUMMARY</p>
+                    <p>
+                        My main goal is to get a job as a front-end developer.<br> 
+                        I want to work in IT-company and to become a high-level developer.<br>
+                        I am ready to spend all my free time on improving programming skills.<br>
+                    </p>
                 </div>
             </section>
+
+            <section>
+                <div class="skills">
+                    <p>SKILLS</p>
+                    <ol class="skills__ul">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Git</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Cisco: swithing and routing, security.</li>
+                        <li>Windows: AD, DNS, DHCP.</li>
+                        <li>WAF: managing, support, tuning web application protection rules</li>
+                        <li>Sandbox: managing, support, tuning (Cuckoo, Checkpoint, Lastline)</li>
+                        <li>SIEM: introduction, creating reports, dashboards, rules. (Wazuh and other)</li>
+                        <li>Firewall/NGFirewall: Pfsense, OPNsense NGFirewall</li>
+                    </ol>               
+                    
+                </div>
+            </section>
+            <section>
+                <div class="code">
+                    <p>CODE EXAMPLES</p>
+                    <code>
+                        myWeather.on('click', () => {<br>
+                            navigator.geolocation.getCurrentPosition(function({coords}){<br>
+                                getWeather(coords.latitude, coords.longitude)<br>
+                        })});<br>
+                    </code>
+                    <code>
+                        def packet_analysis(packet):<br>
+                            if packet.haslayer(http.HTTPRequest):<br>
+                                url = geturl(packet)<br>
+                                get_time_now()<br>
+                                print(f"[+] HTTP Request >> {url.decode()}")<br>
+                                login_info = get_login_info(packet)<br>
+                                if login_info:<br>
+                                    get_time_now()<br>
+                                    print(Fore.YELLOW + f"[+] Possible username/password {login_info}")<br>
+                    </code>
+                </div>
+            </section>
+            <section>
+                <div class="experience">
+                    <p>EXPERIENCE</p>
+                    <ol>
+                        <li>https://github.com/vadimshut/OTX_connector</li>
+                        <li>https://github.com/vadimshut/Network-Scanner</li>
+                        <li> https://github.com/vadimshut/ARP-spoofer</li>
+                        <li>https://github.com/vadimshut/Packet-sniffer</li>
+                        <li>https://github.com/vadimshut/DNS-spoofer</li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <div class="education">
+                    <p>EDUCATION</p>
+                    <p> 
+                        2009 – 2014 — Military Academy of the Republic of Belarus, Minsk Communication and automatic controls, 
+                        telecommunications systems engineer; management specialist.<br>
+                        2018 – 2019 — IT-academy. Cisco CCNA routing and switсhing<br>
+                        2020 — EPAM, DevOps<br>
+                        2020 — www.udemy.com. Learn Ethical Hacking From Scratch<br>
+                        2020 — www.zsecurity.org. Learn Website Hacking From Scratch<br>
+                        2020 — www.netacad.com.<br>
+                        Introduction Cybersecurity<br>
+                        Cybersecurity Essentials<br>
+                        2020 - www.udemy.com Python.<br>
+                        2020 - https://courses.stationx.net<br>
+                        Python for beginners<br>
+                        Learn Python and Ethical Hacking From Scratch<br>
+                        Cyber Security – Python and Web Applications<br>
+                    </p>
+                </div>
+            </section>
+
         </main>
 
-        <>
+        
     <footer class="footer">
-
+        <ul class="footer_ul">
+            <li><span class="span_resource">email:</span> <span class="span_data">vadimshut1992@gmail.com</span></li>
+            <li><span class="span_resource">Discord:</span><span class="span_data">Vadim(@vadimshut)</span> </li>
+            <li><span class="span_resource">Telegram:</span><span class="span_data">Vadim</span> </li>
+        </ul>
     </footer>
     </div>
 
