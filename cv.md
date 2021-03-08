@@ -67,3 +67,24 @@ def packet_analysis(packet):
 - https://github.com/vadimshut/ARP-spoofer
 - https://github.com/vadimshut/Packet-sniffer
 - https://github.com/vadimshut/DNS-spoofer
+
+## Education
+
+- **2009 – 2014** — Military Academy of the Republic of Belarus, Minsk
+  Communication and automatic controls, telecommunications systems engineer; management specialist.
+- **2018 – 2019** — IT-academy. Cisco CCNA routing and switсhing
+- **2020** — EPAM, DevOps
+- **2020** — www.udemy.com. Learn Ethical Hacking From Scratch
+- **2020** — www.zsecurity.org. Learn Website Hacking From Scratch
+- **2020** — www.netacad.com.
+  - Introduction Cybersecurity
+  - Cybersecurity Essentials
+- **2020** - www.udemy.com Python.
+- **2020** - https://courses.stationx.net
+  - Python for beginners
+  - Learn Python and Ethical Hacking From Scratch
+  - Cyber Security – Python and Web Applications
+
+## English
+
+- Pre-Intermediate
