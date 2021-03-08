@@ -2,6 +2,8 @@ html {
   font-family: Roboto, sans-serif;
 }
 body {
+  display: flex;
+  justify-content: center;
   background-color: #c9c9c9;
   margin: 0;
   padding: 0;
