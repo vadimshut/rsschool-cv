@@ -15,7 +15,7 @@ body {
   width: 80vw;
   height: 100vh;
   background-color: blue;
-  justify-content: ;
+  
 }
 
 .header {
@@ -28,7 +28,7 @@ body {
 
 .header__avatarka {
   margin-left: 50px;
-  background-image: url(/images/ava.jpeg);
+  background-image: url(./images/ava.jpeg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   border-radius: 50%;
